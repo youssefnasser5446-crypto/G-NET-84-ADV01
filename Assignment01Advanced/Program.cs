@@ -1,4 +1,5 @@
-﻿using Assignment01Advanced.IReposatory_Example;
+﻿using Assignment01Advanced.BaseClass_Constraint;
+using Assignment01Advanced.IReposatory_Example;
 using Assignment01Advanced.NewConstraints9;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
@@ -155,6 +156,17 @@ namespace Assignment01Advanced
             //Console.WriteLine(Search2.FindMax(IntArr));
 
 
+            #endregion
+
+            #region Question11
+
+            //Q11: What is the base class constraint? Write an example.
+
+            // ans=>  The type you pass must inherit from the class specified in the constraint.
+
+            //Cat<Dog> cat = new Cat<Dog>("meoo");
+            ////  Cat<Lion> lion = new Cat<Lion>(); // error => not Inheret from Animal class
+            //Console.WriteLine(cat.Speak);
             #endregion
 
         }
