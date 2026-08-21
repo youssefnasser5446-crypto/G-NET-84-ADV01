@@ -146,6 +146,16 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question10
+
+            //// Q10:  What is the interface constraint? Write an example.
+            ////  ans => The type I'm going to send must implement the interface.
+
+            //int[] IntArr = { 50, 6, 0, 4, 84, 21 };
+            //Console.WriteLine(Search2.FindMax(IntArr));
+
+
+            #endregion
 
         }
     }
