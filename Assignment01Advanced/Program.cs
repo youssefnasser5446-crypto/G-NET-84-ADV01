@@ -1,5 +1,6 @@
 ﻿using Assignment01Advanced.BaseClass_Constraint;
 using Assignment01Advanced.IReposatory_Example;
+using Assignment01Advanced.Multi_Constraint;
 using Assignment01Advanced.NewConstraints9;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
@@ -167,6 +168,21 @@ namespace Assignment01Advanced
             //Cat<Dog> cat = new Cat<Dog>("meoo");
             ////  Cat<Lion> lion = new Cat<Lion>(); // error => not Inheret from Animal class
             //Console.WriteLine(cat.Speak);
+            #endregion
+
+            #region Question12
+
+            //Q12: How do you apply multiple constraints? Write an example.
+
+            // ans via Comma Seperator
+
+            User<Product> pro = new User<Product>(1, "Ahmed");
+
+            pro.ValuesBuy.Id = 1;
+            pro.ValuesBuy.Name = "mouse";
+            pro.ValuesBuy.Salary = 1000;
+            Console.WriteLine(pro);
+
             #endregion
 
         }
