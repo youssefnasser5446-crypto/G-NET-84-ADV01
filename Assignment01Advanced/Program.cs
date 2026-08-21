@@ -1,4 +1,6 @@
-﻿namespace Assignment01Advanced
+﻿using Assignment01Advanced.Question03;
+
+namespace Assignment01Advanced
 {
     internal class Program
     {
@@ -30,6 +32,16 @@
 
             #endregion
 
+            #region Question03
+
+            /*
+             Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
+             */
+
+            //Pair<int, string> p = new Pair<int, string>(1, "ahmed");
+            //Console.WriteLine($" Key is : {p.Key}\n Value is : {p.Value}");
+
+            #endregion
         }
     }
 }
