@@ -1,4 +1,5 @@
 ﻿using Assignment01Advanced.IReposatory_Example;
+using Assignment01Advanced.NewConstraints9;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
 using Assignment01Advanced.StructExample7;
@@ -129,6 +130,23 @@ namespace Assignment01Advanced
             ////Console.WriteLine(cl.Value); //not valid => value type
 
             #endregion
+
+            #region Question09
+
+            // Q9: What is the 'new()' constraint? Write an example.
+            //The type I pass must have a public parameterless constructor.
+
+            //NewConstraint<Product> pro = new NewConstraint<Product>();
+            //Product product = new Product();
+            //product = pro.New();
+            //product.Name = "mousef";
+            //Console.WriteLine(product.Name);
+
+            // NewConstraint<string> pro = new NewConstraint<string>(); not contain default constructor
+
+            #endregion
+
+
         }
     }
 }

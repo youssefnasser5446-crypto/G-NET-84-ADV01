@@ -13,6 +13,10 @@ namespace Assignment01Advanced.IReposatory_Example
         public string? Name { get; set; }
         public decimal Salary { get; set; }
 
+        public Product()
+        {
+            
+        }
         public Product(int id, string? name, decimal salary)
         {
             Id = id;
