@@ -1,4 +1,5 @@
 ﻿using Assignment01Advanced.Question03;
+using Assignment01Advanced.Question04;
 
 namespace Assignment01Advanced
 {
@@ -43,6 +44,20 @@ namespace Assignment01Advanced
 
             #endregion
 
-          }
+            #region Question04
+
+            ///*
+            // Q5: Write a generic method FindMax<T> that finds maximum value
+            // */
+
+            //int[] arr = { 5, 2, 8, 87, -15, 7 };
+            //if (arr.Length == 0)
+            //    throw new ArgumentException("Array cannot be empty");
+            //Search se = new Search();
+            //Console.WriteLine($"max num is : {se.FindMax(arr)}");
+
+            #endregion
+
+        }
     }
 }
