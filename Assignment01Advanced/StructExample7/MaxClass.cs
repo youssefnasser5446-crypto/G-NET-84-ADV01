@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment01Advanced.StructExample7
 {
-    public static class MaxClass<T> where T : struct , IComparable<T>
+    public static class Max<T> where T : struct , IComparable<T>
     {
         public static T max (T num1 , T num2)
         {

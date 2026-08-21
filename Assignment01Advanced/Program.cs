@@ -114,6 +114,21 @@ namespace Assignment01Advanced
 
 
             #endregion
+
+            #region Question08
+
+            // Q8: What is the 'class' constraint? Write an example.
+
+            // ans => The class constraint specifies that the generic type parameter must be a reference type
+
+            //Product pro = new Product(1, "Laptop", 14000);
+            //ClassConstraint<Product> cl = new ClassConstraint<Product>(pro);
+            //Console.WriteLine(cl.Value.Name); // valid => reference type
+
+            ////ClassConstraint<int> cl = new ClassConstraint<int>(3);
+            ////Console.WriteLine(cl.Value); //not valid => value type
+
+            #endregion
         }
     }
 }
