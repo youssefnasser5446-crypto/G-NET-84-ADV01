@@ -1,5 +1,7 @@
 ﻿using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
+using Assignment01Advanced.Swap;
+using System.ComponentModel;
 
 namespace Assignment01Advanced
 {
@@ -9,7 +11,7 @@ namespace Assignment01Advanced
         {
             #region Question01
             /*
-             
+
              Q1: What is a generic class? Why use generics?
 
             ans => It is a class capable of work with different data type;
@@ -58,6 +60,16 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question05
+
+            // Q4: What is a generic method? Write Swap<T> method.
+
+            //int x = 5 , y = 10;
+
+            //SearchClass.Swap(ref x, ref y);
+            //Console.WriteLine($"x after swap : is {x}\ny after swap : is {y} ");
+
+            #endregion
         }
     }
 }
