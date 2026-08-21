@@ -1,6 +1,7 @@
 ﻿using Assignment01Advanced.IReposatory_Example;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
+using Assignment01Advanced.StructExample7;
 using Assignment01Advanced.Swap;
 using System.ComponentModel;
 
@@ -83,24 +84,36 @@ namespace Assignment01Advanced
             //it must provide implementations for its members using the specified type.
             */
 
-           //IRepository< Product > pro = new RepositoryProduct();
-           // pro.Add(new Product(1, "Laptop", 11000));
-           // pro.Add(new Product(2, "smartWatch", 1000));
-           // pro.Add(new Product(3, "mouse", 50));
-           // foreach (var item in pro.GetAll())
-           // {
-           //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
-           // }
-           // Console.WriteLine("after deleted=====================================");
-           // pro.Delete(2);
+            //IRepository< Product > pro = new RepositoryProduct();
+            // pro.Add(new Product(1, "Laptop", 11000));
+            // pro.Add(new Product(2, "smartWatch", 1000));
+            // pro.Add(new Product(3, "mouse", 50));
+            // foreach (var item in pro.GetAll())
+            // {
+            //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
+            // }
+            // Console.WriteLine("after deleted=====================================");
+            // pro.Delete(2);
 
-           // foreach (var item in pro.GetAll())
-           // {
-           //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
-           // }
+            // foreach (var item in pro.GetAll())
+            // {
+            //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
+            // }
             #endregion
 
+            #region Question07
 
+            //Q7: What is the 'struct' constraint? Write an example.
+
+            //The struct constraint specifies that the generic type parameter
+            //must be a non-nullable value type
+
+            // Console.WriteLine(MaxClass<int>.max(5, 10)); // valid => value type
+
+            //// Console.WriteLine(MaxClass<string>.max("Ahmed" ,"yousef"));// not valid => reference type
+
+
+            #endregion
         }
     }
 }
