@@ -1,4 +1,5 @@
-﻿using Assignment01Advanced.Question03;
+﻿using Assignment01Advanced.IReposatory_Example;
+using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
 using Assignment01Advanced.Swap;
 using System.ComponentModel;
@@ -70,6 +71,36 @@ namespace Assignment01Advanced
             //Console.WriteLine($"x after swap : is {x}\ny after swap : is {y} ");
 
             #endregion
+
+            #region Question06
+
+            //
+            /*
+            // Q6: What is a generic interface? Write IRepository<T>.
+
+            //ans => A generic interface is an interface that can work with different data types
+            //using type parameters. Any class that implements
+            //it must provide implementations for its members using the specified type.
+            */
+
+           //IRepository< Product > pro = new RepositoryProduct();
+           // pro.Add(new Product(1, "Laptop", 11000));
+           // pro.Add(new Product(2, "smartWatch", 1000));
+           // pro.Add(new Product(3, "mouse", 50));
+           // foreach (var item in pro.GetAll())
+           // {
+           //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
+           // }
+           // Console.WriteLine("after deleted=====================================");
+           // pro.Delete(2);
+
+           // foreach (var item in pro.GetAll())
+           // {
+           //     Console.WriteLine($" Id : {item.Id}\n Name : {item.Name}\n Price : {item.Salary}");
+           // }
+            #endregion
+
+
         }
     }
 }
